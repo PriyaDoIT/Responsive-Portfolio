@@ -1,0 +1,28 @@
+@media screen and (max-width: 980px){
+	img{
+	float: none;
+
+}
+.wrapper{
+	max-width: 500px;
+	margin-bottom: 150px;
+}
+}
+
+@media screen and (max-width: 768px){
+.wrapper{
+	max-width: 500px;
+	margin-bottom: 150px;
+	float: none;
+	}
+.Connect{
+	max-width: 500px;
+	padding: 20px;
+	float: none;
+	margin-bottom: 150px;
+	}
+.topnav{
+	left: 250px;
+}
+}
+

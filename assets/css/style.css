@@ -1,0 +1,225 @@
+html, body{
+	margin: 50px 0 0 0px;
+	left: 0;
+	top:0;
+	min-height: 100%
+}	
+
+body {
+	background-image: url(../images/hypnotize.png);
+}
+
+.Priya{
+	width: 100%;
+	max-width: 200px;
+	display: inline-block;
+	vertical-align: middle;
+	background-color: #4aaaa5;
+	margin-left: 50px;
+
+}
+
+.topnav {
+	position: relative;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+.topnav a {
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  color:black;
+  font-family: "Arial";
+
+}
+
+header{
+	background-color: white;
+	border-bottom: solid;
+	border-color: #cccccc;
+	position: absolute;
+	width: 100%;
+	top:0;
+	left: 0;
+	z-index: 500;
+	float:left;
+}
+
+header h1{
+	color: white;
+	text-align: center;
+}
+
+/* About Me Section */
+.wrapper{
+	background-color: white;
+	max-width: 750px;
+	padding: 20px;
+	float: left;
+	margin-left: 50px;
+	margin-bottom: 50px
+}
+
+h1 {
+	color: #4aaaa5;
+}
+
+h2 {
+	color: #4aaaa5;
+	border-bottom: solid;
+	border-color: #dddddd; 
+}
+
+img{
+	float: left;
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+
+.Connect{
+	background-color: white;
+	width: 270px;
+	text-align: center;
+	padding: 20px;
+	float: left;
+	margin-left: 50px;
+	margin-bottom: 150px;
+}
+
+p{
+	font-family: "Arial";
+	line-height: 1.5;
+}
+
+label{
+	font-family: "Arial";
+}
+
+/* Connect with Me Navigation Buttons */
+#social img{
+	width:25%;
+	height:25%;	
+	float: none;
+   
+}
+
+/* Footer */
+.footer{
+	position: fixed;
+	left:0;
+	bottom: 0;
+	width: 100%;
+	padding:20px;
+	background-color: #666666;
+	color:white;
+	text-align: center;
+	font-size: 10px;
+	border-top: 10px solid #4aaaa5;
+}
+
+/* Contact Page */
+input[type=text], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-family: "Arial";
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: silver;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+/* Portfolio */
+
+.Portfolio1 {
+position: relative;
+float:left;
+}
+
+p.portxt{
+position: absolute;
+float: left;
+background-color: #4aaaa5;
+color: white;
+font-weight: bold;
+width: 350px;
+padding: 10px 0 10px 0;
+text-align: center;
+top: 175px;
+}
+
+.Portfolio2 {
+position: relative;
+float: left;
+}
+
+.Portfolio3 {
+position: relative;
+float: left;
+}
+
+.Portfolio4 {
+position: relative;
+float: left;
+}
+
+.Portfolio5 {
+position: relative;
+float: left;
+}
+
+/*Media Queries*/
+
+
+@media screen and (max-width: 980px){
+	img{
+	float: none;
+
+}
+.wrapper{
+	max-width: 500px;
+	margin-bottom: 150px;
+}
+}
+
+@media screen and (max-width: 768px){
+.wrapper{
+	max-width: 500px;
+	margin-bottom: 150px;
+	float: none;
+	}
+.Connect{
+	max-width: 500px;
+	padding: 20px;
+	float: none;
+	margin-bottom: 150px;
+	}
+.topnav{
+	left: 250px;
+}
+}
+
