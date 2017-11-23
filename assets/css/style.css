@@ -24,16 +24,18 @@ body {
     display: inline-block;
     vertical-align: middle;
 
+
+
 }
 
 .topnav a {
-  color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
   color:black;
   font-family: "Arial";
+
 
 }
 
@@ -57,7 +59,7 @@ header h1{
 /* About Me Section */
 .wrapper{
 	background-color: white;
-	max-width: 750px;
+	max-width: 60%;
 	padding: 20px;
 	float: left;
 	margin-left: 50px;
@@ -74,7 +76,7 @@ h2 {
 	border-color: #dddddd; 
 }
 
-img{
+#About img{
 	float: left;
 	padding-right: 10px;
 	padding-bottom: 10px;
@@ -158,6 +160,7 @@ input[type=submit]:hover {
 .Portfolio1 {
 position: relative;
 float:left;
+margin-right: 20px;
 }
 
 p.portxt{
@@ -175,51 +178,97 @@ top: 175px;
 .Portfolio2 {
 position: relative;
 float: left;
+margin-right: 20px;
 }
 
 .Portfolio3 {
 position: relative;
 float: left;
+margin-right: 20px;
 }
 
 .Portfolio4 {
 position: relative;
 float: left;
+margin-right: 20px;
 }
 
 .Portfolio5 {
 position: relative;
 float: left;
+margin-right: 20px;
 }
 
-/*Media Queries*/
+/*Media Query for 980px*/
 
 
 @media screen and (max-width: 980px){
-	img{
+	#About img{
 	float: none;
+	display: block; 
+	margin: 0 auto ;
 
 }
 .wrapper{
 	max-width: 500px;
 	margin-bottom: 150px;
+
 }
 }
+
+/*Media Query for 768px*/
 
 @media screen and (max-width: 768px){
-.wrapper{
-	max-width: 500px;
-	margin-bottom: 150px;
-	float: none;
+	#About img{
+		float: left;
+		display: block; 
+		margin: 0 auto ;
 	}
-.Connect{
-	max-width: 500px;
-	padding: 20px;
-	float: none;
-	margin-bottom: 150px;
+	.wrapper{
+		max-width: 100%;
+		margin-right: 50px;
+		margin-bottom: 50px;
+		float: none;
 	}
-.topnav{
-	left: 250px;
+
+	.Connect{
+		width: 82%;
+		float: none;
+		margin-bottom: 120px;
+		text-align: left;
+	}
+	#social img{
+		width:10%;
+		height:10%;	
+	}
+
+	.Portfolio1, .Portfolio2, .Portfolio3, .Portfolio4, .Portfolio5{
+		float: none;
+	}
+	
 }
+/*Media Query for 640px*/
+
+@media screen and (max-width: 640px){
+	#About img{
+		float: none;
+		display: block; 
+		margin: 0 auto ;
+	}
+	.Priya{
+		max-width: 100%;
+		margin-left: 0px;
+	}
+
+	.topnav{
+		margin-left: 50px;
+	}
+
+	.topnav a {
+margin-right: 100px;
 }
+
+
+
+
 
